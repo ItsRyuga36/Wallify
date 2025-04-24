@@ -8,13 +8,13 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(270deg, #1e3c72, #ff0844, #1e3c72);
-      background-size: 600% 600%;
-      animation: gradientBG 15s ease infinite;
+      background: linear-gradient(135deg, #1e3c72, #ff0844);
       color: #fff;
+      animation: gradientShift 15s ease infinite;
+      background-size: 400% 400%;
     }
 
-    @keyframes gradientBG {
+    @keyframes gradientShift {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
@@ -76,7 +76,7 @@
       color: #111;
       text-decoration: none;
       border-radius: 4px;
-      transition: transform 0.3s ease;
+      transition: transform 0.2s ease;
     }
     .wallpaper a:hover {
       transform: scale(1.1);
@@ -112,15 +112,15 @@
 
   <section class="gallery">
     <div class="wallpaper">
-      <img src="https://via.placeholder.com/300x200.png?text=Wallpaper+1" alt="Wallpaper 1">
+      <img src="https://raw.githubusercontent.com/ItsRyuga36/Wallify/main/images/wall1.jpg" alt="Wallpaper 1">
       <a href="#">Buy Now</a>
     </div>
     <div class="wallpaper">
-      <img src="https://via.placeholder.com/300x200.png?text=Wallpaper+2" alt="Wallpaper 2">
+      <img src="https://raw.githubusercontent.com/ItsRyuga36/Wallify/main/images/wall2.jpg" alt="Wallpaper 2">
       <a href="#">Buy Now</a>
     </div>
     <div class="wallpaper">
-      <img src="https://via.placeholder.com/300x200.png?text=Wallpaper+3" alt="Wallpaper 3">
+      <img src="https://raw.githubusercontent.com/ItsRyuga36/Wallify/main/images/wall3.jpg" alt="Wallpaper 3">
       <a href="#">Buy Now</a>
     </div>
   </section>

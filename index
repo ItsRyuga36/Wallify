@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallify - Premium Wallpapers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(270deg, #1e3c72, #ff0844, #1e3c72);
+      background-size: 600% 600%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #00ffe7;
+    }
+    nav a {
+      margin-left: 20px;
+      color: #ccc;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00ffe7;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      color: #ddd;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .wallpaper {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    .wallpaper img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .wallpaper a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background: #00ffe7;
+      color: #111;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: transform 0.3s ease;
+    }
+    .wallpaper a:hover {
+      transform: scale(1.1);
+    }
+    .about {
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wallify</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="wallpapers.html">Wallpapers</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Make Your Screen Look 🔥</h2>
+    <p>Premium wallpapers for phones and desktops</p>
+  </section>
+
+  <section class="gallery">
+    <div class="wallpaper">
+      <img src="https://via.placeholder.com/300x200.png?text=Wallpaper+1" alt="Wallpaper 1">
+      <a href="#">Buy Now</a>
+    </div>
+    <div class="wallpaper">
+      <img src="https://via.placeholder.com/300x200.png?text=Wallpaper+2" alt="Wallpaper 2">
+      <a href="#">Buy Now</a>
+    </div>
+    <div class="wallpaper">
+      <img src="https://via.placeholder.com/300x200.png?text=Wallpaper+3" alt="Wallpaper 3">
+      <a href="#">Buy Now</a>
+    </div>
+  </section>
+
+  <section class="about">
+    <h3>About Wallify</h3>
+    <p>Hey! I’m the creator of Wallify. I design wallpapers to give your screen personality. Every piece is made with love and attention to detail. Thanks for supporting my work!</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Wallify. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
